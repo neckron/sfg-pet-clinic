@@ -1,4 +1,4 @@
-package dev.neckron.sfgpetclinic;
+package dev.neckron.sfgpetclininc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

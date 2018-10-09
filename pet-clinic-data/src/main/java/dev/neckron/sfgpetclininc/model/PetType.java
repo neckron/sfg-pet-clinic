@@ -1,4 +1,4 @@
-package dev.neckron.sfgpetclinic.model;
+package dev.neckron.sfgpetclininc.model;
 
 public class PetType {
 
