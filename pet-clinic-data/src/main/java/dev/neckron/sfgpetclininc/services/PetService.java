@@ -5,9 +5,17 @@ import dev.neckron.sfgpetclininc.model.Pet;
 
 import java.util.Set;
 
-public interface PetService {
+public interface PetService extends CrudService<Pet , Long> {
 
-    Pet findById(Long id);
-    Pet save(Pet pet);
+    @Override
     Set<Pet> findAll();
+
+    @Override
+    Pet findById(Long aLong);
+
+    @Override
+    Pet save(Pet object);
+
+    @Override
+    void delete(Pet object);
 }
